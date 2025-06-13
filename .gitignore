@@ -4,7 +4,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -23,6 +22,7 @@ wheels/
 
 # Virtual Environment
 venv/
+env/
 ENV/
 
 # IDE
@@ -31,6 +31,25 @@ ENV/
 *.swp
 *.swo
 
-# OS
+# Model cache
+model_cache/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Logs
+*.log
+
+# Local development settings
+.env
+.env.local
+
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db 
