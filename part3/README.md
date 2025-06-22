@@ -1,8 +1,18 @@
 # PART3: 벡터 임베딩 + LLM 2단계 검색 시스템
 
+<div align="center">
+  <img src="images/logo.png" alt="PART3 Logo" width="200"/>
+  <h3>🤖 AI 기반 지능형 메뉴 검색 시스템</h3>
+</div>
+
 ## 📋 프로젝트 개요
 
 PART3는 OpenAI API를 활용한 고급 메뉴 검색 시스템입니다. 벡터 임베딩과 LLM(Large Language Model)을 결합하여 2단계 검색을 수행하며, 사용자가 찾고자 하는 메뉴를 정확하고 빠르게 찾아줍니다.
+
+<div align="center">
+  <img src="images/system_architecture.png" alt="System Architecture" width="600"/>
+  <p><em>2단계 검색 시스템 구조도</em></p>
+</div>
 
 ## 🚀 주요 기능
 
@@ -39,6 +49,11 @@ PART3는 OpenAI API를 활용한 고급 메뉴 검색 시스템입니다. 벡터
 
 ## 📁 파일 구조
 
+<div align="center">
+  <img src="images/file_structure.png" alt="File Structure" width="400"/>
+  <p><em>프로젝트 파일 구조</em></p>
+</div>
+
 ```
 part3/
 ├── run_search.py              # 메인 실행 파일
@@ -48,6 +63,13 @@ part3/
 ├── requirements.txt           # 필요한 패키지 목록
 ├── ia-data.json              # 메뉴 데이터 파일
 ├── embeddings_cache.pkl       # 임베딩 캐시 파일
+├── images/                    # 이미지 폴더
+│   ├── logo.png              # 프로젝트 로고
+│   ├── system_architecture.png # 시스템 구조도
+│   ├── search_example.png    # 검색 결과 예시
+│   ├── algorithm_flow.png    # 알고리즘 플로우차트
+│   ├── performance_metrics.png # 성능 지표 그래프
+│   └── file_structure.png    # 파일 구조 트리
 └── README.md                 # 프로젝트 설명서
 ```
 
@@ -85,6 +107,11 @@ python run_search.py
 ```
 
 ## 📊 검색 결과 예시
+
+<div align="center">
+  <img src="images/search_example.png" alt="Search Example" width="700"/>
+  <p><em>실제 검색 결과 화면</em></p>
+</div>
 
 ```
 🔍 '회원가입' 검색 결과:
@@ -133,6 +160,11 @@ python run_search.py
 
 ## 🎯 검색 알고리즘
 
+<div align="center">
+  <img src="images/algorithm_flow.png" alt="Algorithm Flow" width="800"/>
+  <p><em>2단계 검색 알고리즘 플로우차트</em></p>
+</div>
+
 ### 1단계: 벡터 임베딩 검색
 1. 사용자 검색어를 벡터로 변환
 2. 메뉴 데이터를 벡터로 변환
@@ -148,6 +180,11 @@ python run_search.py
 5. 연관성 이유 설명 생성
 
 ## 📈 성능 지표
+
+<div align="center">
+  <img src="images/performance_metrics.png" alt="Performance Metrics" width="600"/>
+  <p><em>시스템 성능 지표 그래프</em></p>
+</div>
 
 - **검색 정확도**: 키워드 매칭 + 벡터 유사도 + LLM 분석
 - **응답 속도**: 캐시 시스템으로 빠른 재검색
@@ -181,4 +218,35 @@ python run_search.py
 
 ## 📞 지원
 
-문제가 발생하거나 개선 사항이 있으면 언제든 말씀해 주세요! 
+문제가 발생하거나 개선 사항이 있으면 언제든 말씀해 주세요!
+
+---
+
+## 🖼️ 이미지 파일 안내
+
+이 README에서 사용되는 이미지들은 `images/` 폴더에 저장되어 있습니다:
+
+- **logo.png**: 프로젝트 로고 이미지
+- **system_architecture.png**: 2단계 검색 시스템 구조도
+- **search_example.png**: 실제 검색 결과 스크린샷
+- **algorithm_flow.png**: 검색 알고리즘 플로우차트
+- **performance_metrics.png**: 시스템 성능 지표 그래프
+- **file_structure.png**: 프로젝트 파일 구조 트리
+- **1.png**: 추가 이미지 1
+- **2.png**: 추가 이미지 2
+
+이미지 파일이 없을 경우, 해당 이미지 영역이 깨진 링크로 표시될 수 있습니다. 이미지 파일을 추가하시면 더욱 시각적으로 풍부한 README를 완성할 수 있습니다.
+
+---
+
+## 📸 추가 이미지
+
+<div align="center">
+  <img src="images/1.png" alt="Image 1" width="500"/>
+  <p><em>이미지 1</em></p>
+</div>
+
+<div align="center">
+  <img src="images/2.png" alt="Image 2" width="500"/>
+  <p><em>이미지 2</em></p>
+</div> 
